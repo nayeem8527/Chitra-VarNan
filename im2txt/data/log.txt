@@ -1,0 +1,187 @@
+/home/himanshu/.conda/envs/Python2GPU/bin/python /home/himanshu/DL/caption/hindi_img_captioner/im2txt/data/build_mscoco_data.py
+Loaded caption metadata for 40504 images from /home/himanshu/DL/caption/coco/annotations/captions_val2014.json
+Processing captions.
+Loaded caption metadata for 40504 images from /home/himanshu/DL/caption/coco/annotations/captions_val2014.json
+Processing captions.
+Creating vocabulary.
+Total words: 146
+Words in vocabulary: 134
+Wrote vocabulary file: /home/himanshu/DL/caption/coco/word_counts.txt
+2017-11-12 15:26:41.269700: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-11-12 15:26:41.571586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties:
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:03:00.0
+totalMemory: 11.17GiB freeMemory: 11.09GiB
+2017-11-12 15:26:41.571620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K40c, pci bus id: 0000:03:00.0, compute capability: 3.5)
+Launching 8 threads for spacings: [[0, 19240], [19240, 38480], [38480, 57720], [57720, 76961], [76961, 96201], [96201, 115441], [115441, 134681], [134681, 153922]]
+2017-11-12 15:26:52.778466 [thread 5]: Processed 1000 of 19240 items in thread batch.
+2017-11-12 15:26:52.856871 [thread 2]: Processed 1000 of 19240 items in thread batch.
+2017-11-12 15:26:52.861141 [thread 0]: Processed 1000 of 19240 items in thread batch.
+2017-11-12 15:26:52.941436 [thread 3]: Processed 1000 of 19241 items in thread batch.
+2017-11-12 15:26:52.959116 [thread 4]: Processed 1000 of 19240 items in thread batch.
+2017-11-12 15:26:53.028692 [thread 1]: Processed 1000 of 19240 items in thread batch.
+2017-11-12 15:26:53.106949 [thread 7]: Processed 1000 of 19241 items in thread batch.
+2017-11-12 15:26:53.274856 [thread 6]: Processed 1000 of 19240 items in thread batch.
+2017-11-12 15:27:02.974276 [thread 2]: Processed 2000 of 19240 items in thread batch.
+2017-11-12 15:27:03.059588 [thread 5]: Processed 2000 of 19240 items in thread batch.
+2017-11-12 15:27:03.061766 [thread 3]: Processed 2000 of 19241 items in thread batch.
+2017-11-12 15:27:03.152375 [thread 0]: Processed 2000 of 19240 items in thread batch.
+2017-11-12 15:27:03.299750 [thread 4]: Processed 2000 of 19240 items in thread batch.
+2017-11-12 15:27:03.305168 [thread 1]: Processed 2000 of 19240 items in thread batch.
+2017-11-12 15:27:03.380845 [thread 7]: Processed 2000 of 19241 items in thread batch.
+2017-11-12 15:27:03.670014 [thread 6]: Processed 2000 of 19240 items in thread batch.
+2017-11-12 15:27:12.403655 [thread 2]: Processed 3000 of 19240 items in thread batch.
+2017-11-12 15:27:12.515791 [thread 0]: Processed 3000 of 19240 items in thread batch.
+2017-11-12 15:27:12.566635 [thread 3]: Processed 3000 of 19241 items in thread batch.
+2017-11-12 15:27:12.635401 [thread 5]: Processed 3000 of 19240 items in thread batch.
+2017-11-12 15:27:12.854909 [thread 4]: Processed 3000 of 19240 items in thread batch.
+2017-11-12 15:27:12.956760 [thread 1]: Processed 3000 of 19240 items in thread batch.
+2017-11-12 15:27:13.015716 [thread 7]: Processed 3000 of 19241 items in thread batch.
+2017-11-12 15:27:13.251308 [thread 6]: Processed 3000 of 19240 items in thread batch.
+2017-11-12 15:27:21.928944 [thread 3]: Processed 4000 of 19241 items in thread batch.
+2017-11-12 15:27:22.140483 [thread 2]: Processed 4000 of 19240 items in thread batch.
+2017-11-12 15:27:22.146138 [thread 0]: Processed 4000 of 19240 items in thread batch.
+2017-11-12 15:27:22.354997 [thread 5]: Processed 4000 of 19240 items in thread batch.
+2017-11-12 15:27:22.362132 [thread 1]: Processed 4000 of 19240 items in thread batch.
+2017-11-12 15:27:22.553638 [thread 4]: Processed 4000 of 19240 items in thread batch.
+2017-11-12 15:27:22.693207 [thread 7]: Processed 4000 of 19241 items in thread batch.
+2017-11-12 15:27:22.882122 [thread 6]: Processed 4000 of 19240 items in thread batch.
+2017-11-12 15:27:31.706053 [thread 0]: Processed 5000 of 19240 items in thread batch.
+2017-11-12 15:27:31.765314 [thread 2]: Processed 5000 of 19240 items in thread batch.
+2017-11-12 15:27:32.130512 [thread 1]: Processed 5000 of 19240 items in thread batch.
+2017-11-12 15:27:32.184846 [thread 3]: Processed 5000 of 19241 items in thread batch.
+2017-11-12 15:27:32.266540 [thread 5]: Processed 5000 of 19240 items in thread batch.
+2017-11-12 15:27:32.415507 [thread 4]: Processed 5000 of 19240 items in thread batch.
+2017-11-12 15:27:32.524915 [thread 7]: Processed 5000 of 19241 items in thread batch.
+2017-11-12 15:27:32.769063 [thread 6]: Processed 5000 of 19240 items in thread batch.
+2017-11-12 15:27:40.960503 [thread 0]: Processed 6000 of 19240 items in thread batch.
+2017-11-12 15:27:40.980576 [thread 2]: Processed 6000 of 19240 items in thread batch.
+2017-11-12 15:27:41.344473 [thread 1]: Processed 6000 of 19240 items in thread batch.
+2017-11-12 15:27:41.353163 [thread 5]: Processed 6000 of 19240 items in thread batch.
+2017-11-12 15:27:41.418574 [thread 3]: Processed 6000 of 19241 items in thread batch.
+2017-11-12 15:27:41.584738 [thread 4]: Processed 6000 of 19240 items in thread batch.
+2017-11-12 15:27:41.768473 [thread 7]: Processed 6000 of 19241 items in thread batch.
+2017-11-12 15:27:41.964487 [thread 6]: Processed 6000 of 19240 items in thread batch.
+2017-11-12 15:27:50.064106 [thread 2]: Processed 7000 of 19240 items in thread batch.
+2017-11-12 15:27:50.184898 [thread 0]: Processed 7000 of 19240 items in thread batch.
+2017-11-12 15:27:50.379220 [thread 3]: Processed 7000 of 19241 items in thread batch.
+2017-11-12 15:27:50.470155 [thread 5]: Processed 7000 of 19240 items in thread batch.
+2017-11-12 15:27:50.509241 [thread 1]: Processed 7000 of 19240 items in thread batch.
+2017-11-12 15:27:50.657629 [thread 4]: Processed 7000 of 19240 items in thread batch.
+2017-11-12 15:27:50.935805 [thread 7]: Processed 7000 of 19241 items in thread batch.
+2017-11-12 15:27:51.102120 [thread 6]: Processed 7000 of 19240 items in thread batch.
+2017-11-12 15:27:59.698396 [thread 2]: Processed 8000 of 19240 items in thread batch.
+2017-11-12 15:27:59.918701 [thread 0]: Processed 8000 of 19240 items in thread batch.
+2017-11-12 15:28:00.167148 [thread 5]: Processed 8000 of 19240 items in thread batch.
+2017-11-12 15:28:00.171502 [thread 3]: Processed 8000 of 19241 items in thread batch.
+2017-11-12 15:28:00.416668 [thread 1]: Processed 8000 of 19240 items in thread batch.
+2017-11-12 15:28:00.470114 [thread 4]: Processed 8000 of 19240 items in thread batch.
+2017-11-12 15:28:00.747003 [thread 7]: Processed 8000 of 19241 items in thread batch.
+2017-11-12 15:28:00.989940 [thread 6]: Processed 8000 of 19240 items in thread batch.
+2017-11-12 15:28:10.160521 [thread 2]: Processed 9000 of 19240 items in thread batch.
+2017-11-12 15:28:10.421471 [thread 0]: Processed 9000 of 19240 items in thread batch.
+2017-11-12 15:28:10.476140 [thread 5]: Processed 9000 of 19240 items in thread batch.
+2017-11-12 15:28:10.564786 [thread 3]: Processed 9000 of 19241 items in thread batch.
+2017-11-12 15:28:10.764259 [thread 4]: Processed 9000 of 19240 items in thread batch.
+2017-11-12 15:28:10.806195 [thread 1]: Processed 9000 of 19240 items in thread batch.
+2017-11-12 15:28:11.113491 [thread 7]: Processed 9000 of 19241 items in thread batch.
+2017-11-12 15:28:11.175436 [thread 6]: Processed 9000 of 19240 items in thread batch.
+2017-11-12 15:28:20.179387 [thread 2]: Processed 10000 of 19240 items in thread batch.
+2017-11-12 15:28:20.362274 [thread 5]: Processed 10000 of 19240 items in thread batch.
+2017-11-12 15:28:20.382866 [thread 3]: Processed 10000 of 19241 items in thread batch.
+2017-11-12 15:28:20.509605 [thread 0]: Processed 10000 of 19240 items in thread batch.
+2017-11-12 15:28:20.750189 [thread 4]: Processed 10000 of 19240 items in thread batch.
+2017-11-12 15:28:20.764754 [thread 1]: Processed 10000 of 19240 items in thread batch.
+2017-11-12 15:28:21.060757 [thread 7]: Processed 10000 of 19241 items in thread batch.
+2017-11-12 15:28:21.304833 [thread 6]: Processed 10000 of 19240 items in thread batch.
+2017-11-12 15:28:29.844598 [thread 2]: Processed 11000 of 19240 items in thread batch.
+2017-11-12 15:28:30.127653 [thread 3]: Processed 11000 of 19241 items in thread batch.
+2017-11-12 15:28:30.216816 [thread 0]: Processed 11000 of 19240 items in thread batch.
+2017-11-12 15:28:30.224742 [thread 5]: Processed 11000 of 19240 items in thread batch.
+2017-11-12 15:28:30.547949 [thread 1]: Processed 11000 of 19240 items in thread batch.
+2017-11-12 15:28:30.728157 [thread 4]: Processed 11000 of 19240 items in thread batch.
+2017-11-12 15:28:30.747539 [thread 7]: Processed 11000 of 19241 items in thread batch.
+2017-11-12 15:28:31.083704 [thread 6]: Processed 11000 of 19240 items in thread batch.
+2017-11-12 15:28:39.237930 [thread 2]: Processed 12000 of 19240 items in thread batch.
+2017-11-12 15:28:39.424400 [thread 0]: Processed 12000 of 19240 items in thread batch.
+2017-11-12 15:28:39.433985 [thread 5]: Processed 12000 of 19240 items in thread batch.
+2017-11-12 15:28:39.556027 [thread 3]: Processed 12000 of 19241 items in thread batch.
+2017-11-12 15:28:39.858157 [thread 1]: Processed 12000 of 19240 items in thread batch.
+2017-11-12 15:28:39.958123 [thread 4]: Processed 12000 of 19240 items in thread batch.
+2017-11-12 15:28:40.397204 [thread 7]: Processed 12000 of 19241 items in thread batch.
+2017-11-12 15:28:40.464362 [thread 6]: Processed 12000 of 19240 items in thread batch.
+2017-11-12 15:28:49.476444 [thread 5]: Processed 13000 of 19240 items in thread batch.
+2017-11-12 15:28:49.538654 [thread 3]: Processed 13000 of 19241 items in thread batch.
+2017-11-12 15:28:49.593378 [thread 2]: Processed 13000 of 19240 items in thread batch.
+2017-11-12 15:28:49.670447 [thread 0]: Processed 13000 of 19240 items in thread batch.
+2017-11-12 15:28:49.985152 [thread 4]: Processed 13000 of 19240 items in thread batch.
+2017-11-12 15:28:50.148042 [thread 1]: Processed 13000 of 19240 items in thread batch.
+2017-11-12 15:28:50.348888 [thread 7]: Processed 13000 of 19241 items in thread batch.
+2017-11-12 15:28:50.451065 [thread 6]: Processed 13000 of 19240 items in thread batch.
+2017-11-12 15:28:58.591335 [thread 5]: Processed 14000 of 19240 items in thread batch.
+2017-11-12 15:28:58.790483 [thread 3]: Processed 14000 of 19241 items in thread batch.
+2017-11-12 15:28:59.109337 [thread 0]: Processed 14000 of 19240 items in thread batch.
+2017-11-12 15:28:59.149458 [thread 4]: Processed 14000 of 19240 items in thread batch.
+2017-11-12 15:28:59.229799 [thread 2]: Processed 14000 of 19240 items in thread batch.
+2017-11-12 15:28:59.459834 [thread 1]: Processed 14000 of 19240 items in thread batch.
+2017-11-12 15:28:59.512634 [thread 7]: Processed 14000 of 19241 items in thread batch.
+2017-11-12 15:28:59.956630 [thread 6]: Processed 14000 of 19240 items in thread batch.
+2017-11-12 15:29:08.478531 [thread 5]: Processed 15000 of 19240 items in thread batch.
+2017-11-12 15:29:08.740619 [thread 3]: Processed 15000 of 19241 items in thread batch.
+2017-11-12 15:29:08.995243 [thread 4]: Processed 15000 of 19240 items in thread batch.
+2017-11-12 15:29:09.236909 [thread 0]: Processed 15000 of 19240 items in thread batch.
+2017-11-12 15:29:09.311621 [thread 2]: Processed 15000 of 19240 items in thread batch.
+2017-11-12 15:29:09.483913 [thread 7]: Processed 15000 of 19241 items in thread batch.
+2017-11-12 15:29:09.521854 [thread 1]: Processed 15000 of 19240 items in thread batch.
+2017-11-12 15:29:10.207876 [thread 6]: Processed 15000 of 19240 items in thread batch.
+2017-11-12 15:29:18.340950 [thread 5]: Processed 16000 of 19240 items in thread batch.
+2017-11-12 15:29:18.772354 [thread 3]: Processed 16000 of 19241 items in thread batch.
+2017-11-12 15:29:18.832252 [thread 4]: Processed 16000 of 19240 items in thread batch.
+2017-11-12 15:29:19.053806 [thread 2]: Processed 16000 of 19240 items in thread batch.
+2017-11-12 15:29:19.091773 [thread 0]: Processed 16000 of 19240 items in thread batch.
+2017-11-12 15:29:19.283980 [thread 1]: Processed 16000 of 19240 items in thread batch.
+2017-11-12 15:29:19.468753 [thread 7]: Processed 16000 of 19241 items in thread batch.
+2017-11-12 15:29:19.765479 [thread 6]: Processed 16000 of 19240 items in thread batch.
+2017-11-12 15:29:27.508173 [thread 5]: Processed 17000 of 19240 items in thread batch.
+2017-11-12 15:29:27.991654 [thread 3]: Processed 17000 of 19241 items in thread batch.
+2017-11-12 15:29:28.105000 [thread 4]: Processed 17000 of 19240 items in thread batch.
+2017-11-12 15:29:28.366981 [thread 2]: Processed 17000 of 19240 items in thread batch.
+2017-11-12 15:29:28.579288 [thread 1]: Processed 17000 of 19240 items in thread batch.
+2017-11-12 15:29:28.845219 [thread 0]: Processed 17000 of 19240 items in thread batch.
+2017-11-12 15:29:29.401614 [thread 7]: Processed 17000 of 19241 items in thread batch.
+2017-11-12 15:29:29.476236 [thread 6]: Processed 17000 of 19240 items in thread batch.
+2017-11-12 15:29:37.988552 [thread 5]: Processed 18000 of 19240 items in thread batch.
+2017-11-12 15:29:38.460178 [thread 4]: Processed 18000 of 19240 items in thread batch.
+2017-11-12 15:29:38.651892 [thread 3]: Processed 18000 of 19241 items in thread batch.
+2017-11-12 15:29:38.690846 [thread 2]: Processed 18000 of 19240 items in thread batch.
+2017-11-12 15:29:38.900241 [thread 1]: Processed 18000 of 19240 items in thread batch.
+2017-11-12 15:29:39.144627 [thread 0]: Processed 18000 of 19240 items in thread batch.
+2017-11-12 15:29:39.704297 [thread 7]: Processed 18000 of 19241 items in thread batch.
+2017-11-12 15:29:39.750541 [thread 6]: Processed 18000 of 19240 items in thread batch.
+2017-11-12 15:29:47.808282 [thread 5]: Processed 19000 of 19240 items in thread batch.
+2017-11-12 15:29:48.543594 [thread 2]: Processed 19000 of 19240 items in thread batch.
+2017-11-12 15:29:48.655407 [thread 3]: Processed 19000 of 19241 items in thread batch.
+2017-11-12 15:29:48.701906 [thread 4]: Processed 19000 of 19240 items in thread batch.
+2017-11-12 15:29:48.839650 [thread 0]: Processed 19000 of 19240 items in thread batch.
+2017-11-12 15:29:48.889866 [thread 1]: Processed 19000 of 19240 items in thread batch.
+2017-11-12 15:29:49.751214 [thread 6]: Processed 19000 of 19240 items in thread batch.
+2017-11-12 15:29:49.773214 [thread 7]: Processed 19000 of 19241 items in thread batch.
+2017-11-12 15:29:50.177667 [thread 5]: Wrote 19240 image-caption pairs to /home/himanshu/DL/caption/hindi_img_captioner/tf_dump/test-00005-of-00008
+2017-11-12 15:29:50.178262 [thread 5]: Wrote 19240 image-caption pairs to 1 shards.
+2017-11-12 15:29:50.851643 [thread 2]: Wrote 19240 image-caption pairs to /home/himanshu/DL/caption/hindi_img_captioner/tf_dump/test-00002-of-00008
+2017-11-12 15:29:50.851773 [thread 2]: Wrote 19240 image-caption pairs to 1 shards.
+2017-11-12 15:29:50.960685 [thread 3]: Wrote 19241 image-caption pairs to /home/himanshu/DL/caption/hindi_img_captioner/tf_dump/test-00003-of-00008
+2017-11-12 15:29:50.960853 [thread 3]: Wrote 19241 image-caption pairs to 1 shards.
+2017-11-12 15:29:51.018796 [thread 4]: Wrote 19240 image-caption pairs to /home/himanshu/DL/caption/hindi_img_captioner/tf_dump/test-00004-of-00008
+2017-11-12 15:29:51.018852 [thread 4]: Wrote 19240 image-caption pairs to 1 shards.
+2017-11-12 15:29:51.124497 [thread 0]: Wrote 19240 image-caption pairs to /home/himanshu/DL/caption/hindi_img_captioner/tf_dump/test-00000-of-00008
+2017-11-12 15:29:51.124544 [thread 0]: Wrote 19240 image-caption pairs to 1 shards.
+2017-11-12 15:29:51.213159 [thread 1]: Wrote 19240 image-caption pairs to /home/himanshu/DL/caption/hindi_img_captioner/tf_dump/test-00001-of-00008
+2017-11-12 15:29:51.213223 [thread 1]: Wrote 19240 image-caption pairs to 1 shards.
+2017-11-12 15:29:51.906840 [thread 6]: Wrote 19240 image-caption pairs to /home/himanshu/DL/caption/hindi_img_captioner/tf_dump/test-00006-of-00008
+2017-11-12 15:29:51.906899 [thread 6]: Wrote 19240 image-caption pairs to 1 shards.
+2017-11-12 15:29:51.959582 [thread 7]: Wrote 19241 image-caption pairs to /home/himanshu/DL/caption/hindi_img_captioner/tf_dump/test-00007-of-00008
+2017-11-12 15:29:51.959632 [thread 7]: Wrote 19241 image-caption pairs to 1 shards.
+2017-11-12 15:29:52.852205: Finished processing all 153922 image-caption pairs in data set 'test'.
+
+Process finished with exit code 0
