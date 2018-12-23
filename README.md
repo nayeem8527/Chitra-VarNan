@@ -10,6 +10,23 @@ MSCOCO 2014 dataset is used for training and testing and their english image cap
 
 ![screenshot from 2018-12-23 17-11-24](https://user-images.githubusercontent.com/10145585/50383260-fafa0200-06d5-11e9-9398-3bb8ec7a3233.png)
 
+# Running the Code
+
+**Preparing the data**
+The framework will take tfrecord file as input. For making it run:
+  
+    python tfreader.py
+
+After updating the required field in the file.
+
+**Training the model**
+
+    bazel-bin/im2txt/train --input_file_pattern="TFRECORD FILE PATH" --inception_checkpoint_file="inception_v3.ckpt"   --train_dir="PATH TO STORE THE MODEL" --train_inception=false --number_of_steps=1000000
+    
+**Testing the model**
+
+    bazel-bin/im2txt/run_inference --checkpoint_path="PATH OF TRAINED MODEL" --vocab_file="word_counts.txt" --input_files="PATH OF A PARTICULAR IMAGE"
+
 # References
 
 1. Karpathy, Andrej, and Li Fei-Fei. "Deep visual-semantic alignments for generating image descriptions." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
