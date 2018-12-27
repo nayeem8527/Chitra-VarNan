@@ -26,9 +26,9 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from im2txt.ops import image_embedding
-from im2txt.ops import image_processing
-from im2txt.ops import inputs as input_ops
+from ops import image_embedding
+from ops import image_processing
+from ops import inputs as input_ops
 
 
 class ShowAndTellModel(object):

@@ -24,10 +24,10 @@ import os
 
 import tensorflow as tf
 
-from im2txt import configuration
-from im2txt import inference_wrapper
-from im2txt.inference_utils import caption_generator
-from im2txt.inference_utils import vocabulary
+import configuration
+import inference_wrapper
+from inference_utils import caption_generator
+from inference_utils import vocabulary
 
 FLAGS = tf.flags.FLAGS
 
@@ -70,9 +70,9 @@ def main(_):
     generator = caption_generator.CaptionGenerator(model, vocab)
 
     for filename in filenames:
-      with tf.gfile.GFile(filename, "r") as f:
-        image = f.read()
-      captions = generator.beam_search(sess, image)
+      with tf.gfile.GFile(filename, "rb") as f:
+        image = f.read()      
+      captions = generator.beam_search(sess, image)      
       print("Captions for image %s:" % os.path.basename(filename))
       for i, caption in enumerate(captions):
         # Ignore begin and end words.
