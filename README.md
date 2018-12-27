@@ -21,11 +21,11 @@ After updating the required field in the file.
 
 **Training the model**
 
-    bazel-bin/im2txt/train --input_file_pattern="TFRECORD FILE PATH" --inception_checkpoint_file="inception_v3.ckpt"   --train_dir="PATH TO STORE THE MODEL" --train_inception=false --number_of_steps=1000000
+    python /im2txt/train.py --input_file_pattern="TFRECORD FILE PATH" --inception_checkpoint_file="inception_v3.ckpt"   --train_dir="PATH TO STORE THE MODEL" --train_inception=false --number_of_steps=1000000
     
 **Testing the model**
 
-    bazel-bin/im2txt/run_inference --checkpoint_path="PATH OF TRAINED MODEL" --vocab_file="word_counts.txt" --input_files="PATH OF A PARTICULAR IMAGE"
+    python /im2txt/run_inference.py --checkpoint_path="TRAINED MODEL" --vocab_file="word_counts.txt" --input_files="IMAGE FILE"
 
 # References
 
